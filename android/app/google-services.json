@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1065819074069",
+    "firebase_url": "https://movie-review-ecb36.firebaseio.com",
+    "project_id": "movie-review-ecb36",
+    "storage_bucket": "movie-review-ecb36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065819074069:android:8d249ba460b45dac36a81c",
+        "android_client_info": {
+          "package_name": "com.example.Movierecommandation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065819074069-r9s9k9ivbhggffg3vr0ekt2krfcm0so3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnjDt7jEojKGJDHRqJ5B8DVzGP-oGKF1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065819074069-r9s9k9ivbhggffg3vr0ekt2krfcm0so3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
