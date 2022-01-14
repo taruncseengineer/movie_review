@@ -14,7 +14,7 @@ class _FavoriteMovieState extends State<FavoriteMovie> {
   Future favoritemovie() async {
     try {
       String url =
-          "https://api.themoviedb.org/3/trending/movie/day?api_key=61e47ed21ff52f097a7024e461b438e2";
+          "https://api.themoviedb.org/3/trending/movie/day?api_key=value";
       final response = await http.get(url);
       var jsondata = json.decode(response.body);
       setState(() {
