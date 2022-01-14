@@ -1,4 +1,4 @@
-//https://api.themoviedb.org/4/list/1?page=1&api_key=61e47ed21ff52f097a7024e461b438e2
+
 
 //ta te hi en
 import 'package:Movierecommandation/ui/discription.dart';
@@ -16,7 +16,7 @@ class _TopMoviesState extends State<TopMovies> {
   List topmovie;
   Future topmovies() async {
     String url =
-        'https://api.themoviedb.org/4/list/1?page=1&api_key=61e47ed21ff52f097a7024e461b438e2';
+        'https://api.themoviedb.org/4/list/1?page=1&api_key=value';
     try {
       final response = await http.get(url);
       var jsondata = json.decode(response.body);
