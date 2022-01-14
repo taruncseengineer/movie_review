@@ -14,7 +14,7 @@ class _SearchPageState extends State<SearchPage> {
   List querydata;
   Future querymovie(String input) async {
     final String url =
-        'https://api.themoviedb.org/3/search/movie?api_key=61e47ed21ff52f097a7024e461b438e2&language=en-US&page=1&include_adult=false&query=' +
+        'https://api.themoviedb.org/3/search/movie?api_key=value&language=en-US&page=1&include_adult=false&query=' +
             input;
     try {
       final response = await http.get(url);
