@@ -14,7 +14,7 @@ class _TrendingState extends State<Trending> {
   List trendingData;
   Future trendingmovie() async {
     String url =
-        "https://api.themoviedb.org/3/trending/all/week?api_key=61e47ed21ff52f097a7024e461b438e2";
+        "https://api.themoviedb.org/3/trending/all/week?api_key=value";
     try {
       final response = await http.get(url);
       if (response.statusCode == 200) {
