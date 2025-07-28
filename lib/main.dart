@@ -11,8 +11,4 @@ void main() async {
     title: "Movie Recommandation",
     debugShowCheckedModeBanner: false,
     theme: ThemeData(primaryColor: Colors.blueGrey),
-    home: LogIn(),
-  ));
-}
-
-//  61e47ed21ff52f097a7024e461b438e2
+    home: 
